@@ -1,0 +1,27 @@
+.container {
+    margin: 15px;
+    width: 40%;
+}
+
+.container p {
+    margin-bottom: 10px;
+}
+
+.main {
+    display: flex;
+    width: 75%;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+}
+
+.content b {
+    flex: 1 1 50%;
+    text-align: center;
+
+    font-size: 14px;
+}
